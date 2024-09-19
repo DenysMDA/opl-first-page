@@ -2,7 +2,7 @@
   "name": "opl-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DenysMDA/opl-first-page",
+  "homepage": "https://denysmda.github.io/opl-first-page",
   "dependencies": {
     "@fluentui/react": "^8.120.9",
     "@testing-library/jest-dom": "^5.17.0",
