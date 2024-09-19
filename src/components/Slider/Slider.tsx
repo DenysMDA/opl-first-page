@@ -1,4 +1,3 @@
-import React from 'react'
 import './slider.scss'
 
 const sliderContent = [
@@ -16,7 +15,7 @@ const Slider = () => {
             <ul className='slider-list'>
                 {
                     sliderContent.map((text, idx) => (
-                        <li>{text}</li>
+                        <li key={text}>{text}</li>
                     ))
                 }
             </ul>

@@ -1,9 +1,5 @@
-import React from 'react'
-import BodyContent_1 from '../../../assets/BodyContent_1.png'
-
 interface BodyLeftBlockProps {
   side?: string;
-  img?: string;
   title: string;
   description?: string;
   optionalInfo?: string;
@@ -13,7 +9,7 @@ interface BodyLeftBlockProps {
   imgClass?: string
 }
 
-const BodyLeftBlock = ({side='', img, title, description='', optionalInfo='', link, bodyclass='', imgClass='', btnText=''} : BodyLeftBlockProps) => {
+const BodyLeftBlock = ({side='', title, description='', optionalInfo='', link, bodyclass='', imgClass='', btnText=''} : BodyLeftBlockProps) => {
 
   return (
     <section className={`bodycontent${side}  ${bodyclass}`}>

@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import { FreeMode, Pagination, Autoplay  } from 'swiper/modules';
+import { FreeMode, Autoplay  } from 'swiper/modules';
 import client_1 from '../../../assets/1.png'
 import client_2 from '../../../assets/2.png'
 import client_3 from '../../../assets/3.png'

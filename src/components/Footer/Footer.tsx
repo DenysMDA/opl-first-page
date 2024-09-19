@@ -1,4 +1,3 @@
-import React from 'react'
 import './footer.scss'
 import { FaLinkedin, FaFacebook, FaYoutube, FaTwitter } from 'react-icons/fa';
 

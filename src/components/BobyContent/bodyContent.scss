@@ -42,7 +42,7 @@
     }
 
     .bodycontent-content{
-        text-align: left;
+        text-align: justify;
         position: relative;
         padding: 50px;
 
@@ -98,6 +98,19 @@
 
 .bodycontentright{
     flex-direction: row-reverse;
+
+    .bodycontent-img{
+        display: flex;
+        justify-content: end;
+        padding-right: 0;
+
+        .bodycontent-img_wrapper{
+            border-radius: 20px 0 0 20px!important;
+
+        }
+    }
+
+
 }
 
 .bodycontent-prefooter{

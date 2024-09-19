@@ -1,4 +1,3 @@
-import React from 'react'
 import BodyLeftBlock from './cmps/BodyLeftBlock'
 import './bodyContent.scss'
 import BodySlider from './cmps/BodySlider'
@@ -17,6 +16,7 @@ const  BodyContent = () => {
 
       <BodyLeftBlock 
         title='Partner benefits'
+        bodyclass='bodycontent-right'
         description='Operator Connect allows you to scale your Direct Routing service to provide a pure cloud-managed solution to your customers. Through Operator Connect, you can create automations to streamline provisioning, billing, and reporting. In addition, you can uncover go-to-market opportunities for existing and new customers.'  
         optionalInfo='Do you want learn more? Click on the link below:'
         link='https://cloudpartners.transform.microsoft.com/partner-gtm/operators/connect'
@@ -36,7 +36,7 @@ const  BodyContent = () => {
 
      <div className='bodycontent-prefooter'>
         <h2>Join and become our client right now</h2>
-        
+        <p style={{textDecoration: "underline"}}>images must be replaced with correct ones</p>
         <div className='bodycontent-clients'>
           <BodySlider/>
         </div>
@@ -46,19 +46,3 @@ const  BodyContent = () => {
 }
 
 export default BodyContent
-
-// const BodyLeftBlock = ({side='left', img, title, description, optionalInfo, link, bodyclass} : BodyLeftBlockProps) => {
-
-{/* <section className='bodycontent'>
-<div className='bodycontent-img'>
-  <div role='img' className='bodycontent-img_wrapper'/>
-</div>
-<div className='bodycontent-content'>
-  <h3>Try Teams Calling for free and get support with your deployment</h3>
-  <p>
-    With all these capabilities launching, it’s important to keep in mind that Teams Calling can be rolled out in weeks – not months or years – as Lumen (formerly CenturyLink) showed by rolling out Calling globally to over 40,000 users in 4 weeks. <br />
-  </p>
-  <p>To learn more and get started, check out the links below for additional information and guidance:</p>
-  <div className='bodycontent-btn'><a href="https://aka.ms/e5trial">free trial</a></div>
-</div>
-</section> */}

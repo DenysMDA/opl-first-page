@@ -5,10 +5,6 @@ import './pages/Opl'
 import Opl from './pages/Opl';
 
 import { ThemeProvider, createTheme } from '@fluentui/react';
-import { initializeIcons } from '@fluentui/react/lib/Icons';
-import { DefaultButton } from '@fluentui/react/lib/Button';
-
-initializeIcons();
 
 const myTheme = createTheme({
   palette: {

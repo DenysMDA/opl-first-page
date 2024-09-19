@@ -1,4 +1,3 @@
-import React from 'react'
 import MicrosoftHeaderLogo from '../../assets/MicrosoftHeaderLogo.png'
 import './header.scss'
 
@@ -21,8 +20,8 @@ const Header = () => {
         <nav className='header-nav'>
           {
               navigation.map((n, i) => (
-                <div>
-                  <a href={n.link} key={n.link+n.title+i} aria-label={n.title}>{n.title}</a>
+                <div key={n.link+n.title+i}>
+                  <a href={n.link} aria-label={n.title}>{n.title}</a>
                 </div>
               ))
           }
