@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/opl-first-page/static/css/main.eef78c75.css",
+    "main.js": "/opl-first-page/static/js/main.ebdc11e5.js",
+    "static/js/453.382512a4.chunk.js": "/opl-first-page/static/js/453.382512a4.chunk.js",
+    "static/media/BodyContent_4.png": "/opl-first-page/static/media/BodyContent_4.a746891acf670f009589.png",
+    "static/media/teams-2.png": "/opl-first-page/static/media/teams-2.de60c06d1b58a17d21c6.png",
+    "static/media/BodyContent_2.png": "/opl-first-page/static/media/BodyContent_2.0c70fc0eb2e9b22ebe04.png",
+    "static/media/BodyContent_1.png": "/opl-first-page/static/media/BodyContent_1.8e891bb414ae12c8a12e.png",
+    "static/media/1.png": "/opl-first-page/static/media/1.4ac13d33f8e473d07871.png",
+    "static/media/5.png": "/opl-first-page/static/media/5.cb4aa26476ca12c041a4.png",
+    "static/media/7.png": "/opl-first-page/static/media/7.97320c005a76eed27e0b.png",
+    "static/media/3.png": "/opl-first-page/static/media/3.705219370d31928ad721.png",
+    "static/media/2.png": "/opl-first-page/static/media/2.39c61c713dd341236feb.png",
+    "static/media/8.png": "/opl-first-page/static/media/8.aabccc1f5c194d1e9c73.png",
+    "static/media/12.png": "/opl-first-page/static/media/12.24b2a3721e34e28fc270.png",
+    "static/media/10.png": "/opl-first-page/static/media/10.903278b68c32807cfe34.png",
+    "static/media/14.png": "/opl-first-page/static/media/14.6fe4065dea1f63c9a7cf.png",
+    "static/media/9.png": "/opl-first-page/static/media/9.1ad2af0905c3636466d4.png",
+    "static/media/6.png": "/opl-first-page/static/media/6.a8222b022c6969c00453.png",
+    "static/media/15.png": "/opl-first-page/static/media/15.e54a728df196514ee591.png",
+    "static/media/4.png": "/opl-first-page/static/media/4.67f2eb4a632820e9fc5e.png",
+    "static/media/11.png": "/opl-first-page/static/media/11.a9b448fcb7831628826b.png",
+    "static/media/13.png": "/opl-first-page/static/media/13.94e41db135c3162f878b.png",
+    "index.html": "/opl-first-page/index.html",
+    "main.eef78c75.css.map": "/opl-first-page/static/css/main.eef78c75.css.map",
+    "main.ebdc11e5.js.map": "/opl-first-page/static/js/main.ebdc11e5.js.map",
+    "453.382512a4.chunk.js.map": "/opl-first-page/static/js/453.382512a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eef78c75.css",
+    "static/js/main.ebdc11e5.js"
+  ]
+}
