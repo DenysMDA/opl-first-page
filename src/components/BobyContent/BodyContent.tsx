@@ -1,6 +1,7 @@
 import React from 'react'
 import BodyLeftBlock from './cmps/BodyLeftBlock'
 import './bodyContent.scss'
+import BodySlider from './cmps/BodySlider'
 
 const  BodyContent = () => {
   return (
@@ -33,10 +34,13 @@ const  BodyContent = () => {
         imgClass='third-img'
      />
 
-     {/* <div className='bodycontent-prefooter'>
-        <h2>Join Us</h2>
-        <div className='bodycontent-btn'><a href='#'>Sign in now</a></div>
-     </div> */}
+     <div className='bodycontent-prefooter'>
+        <h2>Join and become our client right now</h2>
+        
+        <div className='bodycontent-clients'>
+          <BodySlider/>
+        </div>
+     </div>
     </main>
   )
 }

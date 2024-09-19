@@ -73,6 +73,12 @@
             @include flex-center;
             position: absolute;
             bottom: 50px;
+            cursor: pointer;
+
+            
+            &:hover > a{
+                text-decoration: underline;
+            }
 
             @media (min-width: 1600px){
                 width: 150px;
@@ -84,6 +90,7 @@
                 color: white;
                 text-decoration: none;
                 text-align: center;
+
             }
         }
     }
@@ -91,4 +98,28 @@
 
 .bodycontentright{
     flex-direction: row-reverse;
+}
+
+.bodycontent-prefooter{
+    margin: auto;
+    width: 90%;
+    margin-top: 100px;
+
+
+
+    .mySwiper{
+
+        .slider-img{
+            width: 150px;
+
+            @media (max-width: 1350px){
+                width: 100px;
+            }
+        }
+
+        .swiper-pagination{
+            margin-top: 100px;
+        }
+    }
+      
 }
